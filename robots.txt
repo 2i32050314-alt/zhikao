@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://2i32050314-alt.github.io/zhikao/sitemap.xml
