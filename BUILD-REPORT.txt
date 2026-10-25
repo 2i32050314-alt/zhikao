@@ -1,0 +1,17 @@
+build.py @ 2026-10-25
+页面数：10 ｜ 省份目录：jiangsu ｜ 【待核】总数：128
+SITE_ORIGIN：https://2i32050314-alt.github.io
+CORRECTION_EMAIL：1411826377@qq.com
+三条构建断言：A1 source_url ✔ ｜ A2 verified_at≤400天 ✔ ｜ A3 【待核】原样渲染 ✔
+
+cert_id | 页面 | 【待核】处 | source_url
+erjian | dist/jiangsu\erjian\index.html | 8 | https://jshrss.jiangsu.gov.cn/art/2026/3/2/art_57268_11734353.html
+jianli | dist/jiangsu\jianli\index.html | 14 | https://jshrss.jiangsu.gov.cn/art/2026/3/4/art_57268_11735463.html
+zcaq | dist/jiangsu\zcaq\index.html | 17 | http://yjglt.jiangsu.gov.cn/art/2026/7/24/art_3154_11808234.html
+yixiao | dist/jiangsu\yixiao\index.html | 18 | https://jshrss.jiangsu.gov.cn/art/2026/8/3/art_57268_11811919.html
+zhiyaoshi | dist/jiangsu\zhiyaoshi\index.html | 15 | https://jshrss.jiangsu.gov.cn/art/2026/7/20/art_57268_11806013.html
+hushi | dist/jiangsu\hushi\index.html | 11 | https://www.jswsrc.com.cn/article/index.php?c=show&id=5125
+jiaoshi | dist/jiangsu\jiaoshi\index.html | 9 | https://www.jseea.cn/webfile/index/index_zkxx/2026-06-22/7474668622044991488.html
+zhukuai | dist/jiangsu\zhukuai\index.html | 8 | http://jscz.gov.cn/pub/cztzx/tzgg/202603/t20260325_140831.html
+fakao | dist/jiangsu\fakao\index.html | 14 | https://www.moj.gov.cn/pub/sfbgw/jgsz/jgszzsdw/zsdwgjsfkszx/gjsfkszxdt/202606/t20260609_536223.html
+xfshey | dist/jiangsu\xfshey\index.html | 14 | https://www.jsxfcert.com/quanbuwenzhang/tongzhigonggao/84.html
