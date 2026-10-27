@@ -24,7 +24,8 @@
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:12px;margin:14px 0 0}
   .card{display:block;border:1px solid var(--line);border-radius:10px;padding:13px 14px;text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s}
   .card:hover{border-color:var(--accent);box-shadow:0 2px 10px rgba(10,90,214,.08)}
-  .cname{font-size:16.5px;font-weight:700;margin-bottom:4px}
+  .cname{font-size:16.5px;font-weight:700;margin-bottom:4px;display:flex;align-items:baseline;gap:8px}
+  .prov{font-size:12px;font-weight:600;color:#0a5ad6;background:#eef4ff;border-radius:999px;padding:1px 8px}
   .meta{font-size:12.8px;color:var(--muted);margin:2px 0}
   .row{margin:8px 0 4px;display:flex;flex-wrap:wrap;gap:6px}
   .tag{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:#444;background:#fafafa}
@@ -53,11 +54,11 @@
         <optgroup label="华东">
           <option value="shanghai" disabled>上海市（建设中）</option>
           <option value="jiangsu">江苏省</option>
-          <option value="zhejiang" disabled>浙江省（建设中）</option>
+          <option value="zhejiang">浙江省</option>
           <option value="anhui" disabled>安徽省（建设中）</option>
           <option value="fujian" disabled>福建省（建设中）</option>
           <option value="jiangxi" disabled>江西省（建设中）</option>
-          <option value="shandong" disabled>山东省（建设中）</option>
+          <option value="shandong">山东省</option>
         </optgroup>
         <optgroup label="华中">
           <option value="henan" disabled>河南省（建设中）</option>
@@ -93,7 +94,7 @@
       </select>
     </label>
     <input id="q" type="search" placeholder="搜索证书：二建 / 监理 / 消防 / 药师 / 教资 / 注会…（也可搜主管单位）" autocomplete="off" aria-label="搜索证书">
-    <span class="count" id="cnt">10 个证书 · 已开放 1 / 31 省</span>
+    <span class="count" id="cnt">23 个页面 · 已开放 3 / 31 省</span>
   </div>
 
   <p class="provnote">全国 <strong>31</strong> 个省级行政区已预置在下拉框，当前仅 <strong>江苏省</strong> 已完成官方公告采集并开放（10 证）。
@@ -102,8 +103,8 @@
   <p class="hint" id="empty" hidden>没有匹配的证书。换个关键词试试（支持证书名、主管单位、类别）。</p>
 
   <div class="grid" id="grid">
-    <a class="card" href="/zhikao/jiangsu/erjian/" data-k="二级建造师 二建 二建师 江苏二建 准入类-专业技术人员 住房和城乡建设部、人力资源社会保障部（江苏实施：江苏省住房和城乡建设厅、江苏省人力资源和社会保障厅） 5月 erjian" data-prov="jiangsu">
-      <div class="cname">二级建造师</div>
+    <a class="card" href="/zhikao/jiangsu/erjian/" data-k="二级建造师 二建 二建师 江苏二建 江苏省 准入类-专业技术人员 住房和城乡建设部、人力资源社会保障部（江苏实施：江苏省住房和城乡建设厅、江苏省人力资源和社会保障厅） 5月 erjian" data-prov="jiangsu">
+      <div class="cname">二级建造师<span class="prov">江苏省</span></div>
       <div class="meta">准入类-专业技术人员</div>
       <div class="meta">主管：住房和城乡建设部、人力资源社会保障部（江苏实施：江苏省住房和城乡建设厅、江苏省人力资源和社会保障厅）</div>
       <div class="row">
@@ -111,71 +112,8 @@
 <span class="tag warn">8 项需人工核对</span>      </div>
       <div class="meta">公告发布：2026-03-02 ｜ 数据核对：2026-10-25</div>
     </a>
-    <a class="card" href="/zhikao/jiangsu/jianli/" data-k="监理工程师 监理 监理工程师 国监 准入类-专业技术人员 住房和城乡建设部、交通运输部、水利部、人力资源社会保障部 5月 jianli" data-prov="jiangsu">
-      <div class="cname">监理工程师</div>
-      <div class="meta">准入类-专业技术人员</div>
-      <div class="meta">主管：住房和城乡建设部、交通运输部、水利部、人力资源社会保障部</div>
-      <div class="row">
-        <span class="tag">考试：5月</span>
-<span class="tag warn">14 项需人工核对</span>      </div>
-      <div class="meta">公告发布：2026-03-04 ｜ 数据核对：2026-10-25</div>
-    </a>
-    <a class="card" href="/zhikao/jiangsu/zcaq/" data-k="中级注册安全工程师 注安 安全工程师 中级注安 准入类-专业技术人员 应急管理部、人力资源社会保障部 10月 zcaq" data-prov="jiangsu">
-      <div class="cname">中级注册安全工程师</div>
-      <div class="meta">准入类-专业技术人员</div>
-      <div class="meta">主管：应急管理部、人力资源社会保障部</div>
-      <div class="row">
-        <span class="tag">考试：10月</span>
-<span class="tag warn">17 项需人工核对</span>      </div>
-      <div class="meta">公告发布：2026-07-24 ｜ 数据核对：2026-10-25</div>
-    </a>
-    <a class="card" href="/zhikao/jiangsu/yixiao/" data-k="一级注册消防工程师 一消 消防工程师 一级消防 准入类-专业技术人员 应急管理部、人力资源社会保障部 11月 yixiao" data-prov="jiangsu">
-      <div class="cname">一级注册消防工程师</div>
-      <div class="meta">准入类-专业技术人员</div>
-      <div class="meta">主管：应急管理部、人力资源社会保障部</div>
-      <div class="row">
-        <span class="tag">考试：11月</span>
-<span class="tag warn">18 项需人工核对</span>      </div>
-      <div class="meta">公告发布：2026-07-30 ｜ 数据核对：2026-10-25</div>
-    </a>
-    <a class="card" href="/zhikao/jiangsu/zhiyaoshi/" data-k="执业药师 药师 执业药师 药学 准入类-专业技术人员 国家药品监督管理局、人力资源社会保障部 10月、11月 zhiyaoshi" data-prov="jiangsu">
-      <div class="cname">执业药师</div>
-      <div class="meta">准入类-专业技术人员</div>
-      <div class="meta">主管：国家药品监督管理局、人力资源社会保障部</div>
-      <div class="row">
-        <span class="tag">考试：10月、11月</span>
-<span class="tag warn">15 项需人工核对</span>      </div>
-      <div class="meta">公告发布：2026-07-17 ｜ 数据核对：2026-10-25</div>
-    </a>
-    <a class="card" href="/zhikao/jiangsu/hushi/" data-k="护士执业资格 护资 护考 护士资格 准入类-专业技术人员 国家卫生健康委员会、人力资源社会保障部  hushi" data-prov="jiangsu">
-      <div class="cname">护士执业资格</div>
-      <div class="meta">准入类-专业技术人员</div>
-      <div class="meta">主管：国家卫生健康委员会、人力资源社会保障部</div>
-      <div class="row">
-        <span class="tag">考试：<span class="pending" data-pending="1">【待核】</span></span>
-<span class="tag warn">11 项需人工核对</span>      </div>
-      <div class="meta">公告发布：2025-12-01 ｜ 数据核对：2026-10-25</div>
-    </a>
-    <a class="card" href="/zhikao/jiangsu/jiaoshi/" data-k="中小学教师资格（笔试） 教资 教师资格 教师资格证 准入类-专业技术人员 教育部（江苏实施：江苏省教育厅、江苏省教育考试院） 9月 jiaoshi" data-prov="jiangsu">
-      <div class="cname">中小学教师资格（笔试）</div>
-      <div class="meta">准入类-专业技术人员</div>
-      <div class="meta">主管：教育部（江苏实施：江苏省教育厅、江苏省教育考试院）</div>
-      <div class="row">
-        <span class="tag">考试：9月</span>
-<span class="tag warn">9 项需人工核对</span>      </div>
-      <div class="meta">公告发布：2026-06-22 ｜ 数据核对：2026-10-25</div>
-    </a>
-    <a class="card" href="/zhikao/jiangsu/zhukuai/" data-k="注册会计师（专业阶段） 注会 CPA 注册会计师 准入类-专业技术人员 财政部（江苏实施：江苏省财政厅、江苏省注册会计师协会）  zhukuai" data-prov="jiangsu">
-      <div class="cname">注册会计师（专业阶段）</div>
-      <div class="meta">准入类-专业技术人员</div>
-      <div class="meta">主管：财政部（江苏实施：江苏省财政厅、江苏省注册会计师协会）</div>
-      <div class="row">
-        <span class="tag">考试：<span class="pending" data-pending="1">【待核】</span></span>
-<span class="tag warn">8 项需人工核对</span>      </div>
-      <div class="meta">公告发布：2026-03-24 ｜ 数据核对：2026-10-25</div>
-    </a>
-    <a class="card" href="/zhikao/jiangsu/fakao/" data-k="国家统一法律职业资格 法考 法律职业资格 司考 准入类-专业技术人员 司法部（江苏实施：江苏省司法厅）  fakao" data-prov="jiangsu">
-      <div class="cname">国家统一法律职业资格</div>
+    <a class="card" href="/zhikao/jiangsu/fakao/" data-k="国家统一法律职业资格 法考 法律职业资格 司考 江苏省 准入类-专业技术人员 司法部（江苏实施：江苏省司法厅）  fakao" data-prov="jiangsu">
+      <div class="cname">国家统一法律职业资格<span class="prov">江苏省</span></div>
       <div class="meta">准入类-专业技术人员</div>
       <div class="meta">主管：司法部（江苏实施：江苏省司法厅）</div>
       <div class="row">
@@ -183,14 +121,194 @@
 <span class="tag warn">14 项需人工核对</span>      </div>
       <div class="meta">公告发布：2026-06-08 ｜ 数据核对：2026-10-25</div>
     </a>
-    <a class="card" href="/zhikao/jiangsu/xfshey/" data-k="消防设施操作员 消操 消防设施操作员 消防证 准入类-技能人员 应急管理部（消防救援局）、人力资源社会保障部（江苏实施：江苏消防行业职业技能鉴定站）  xfshey" data-prov="jiangsu">
-      <div class="cname">消防设施操作员</div>
+    <a class="card" href="/zhikao/jiangsu/hushi/" data-k="护士执业资格 护资 护考 护士资格 江苏省 准入类-专业技术人员 国家卫生健康委员会、人力资源社会保障部  hushi" data-prov="jiangsu">
+      <div class="cname">护士执业资格<span class="prov">江苏省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：国家卫生健康委员会、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：<span class="pending" data-pending="1">【待核】</span></span>
+<span class="tag warn">11 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2025-12-01 ｜ 数据核对：2026-10-25</div>
+    </a>
+    <a class="card" href="/zhikao/jiangsu/jianli/" data-k="监理工程师 监理 监理工程师 国监 江苏省 准入类-专业技术人员 住房和城乡建设部、交通运输部、水利部、人力资源社会保障部 5月 jianli" data-prov="jiangsu">
+      <div class="cname">监理工程师<span class="prov">江苏省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：住房和城乡建设部、交通运输部、水利部、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：5月</span>
+<span class="tag warn">14 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-03-04 ｜ 数据核对：2026-10-25</div>
+    </a>
+    <a class="card" href="/zhikao/jiangsu/jiaoshi/" data-k="中小学教师资格（笔试） 教资 教师资格 教师资格证 江苏省 准入类-专业技术人员 教育部（江苏实施：江苏省教育厅、江苏省教育考试院） 9月 jiaoshi" data-prov="jiangsu">
+      <div class="cname">中小学教师资格（笔试）<span class="prov">江苏省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：教育部（江苏实施：江苏省教育厅、江苏省教育考试院）</div>
+      <div class="row">
+        <span class="tag">考试：9月</span>
+<span class="tag warn">9 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-06-22 ｜ 数据核对：2026-10-25</div>
+    </a>
+    <a class="card" href="/zhikao/jiangsu/xfshey/" data-k="消防设施操作员 消操 消防设施操作员 消防证 江苏省 准入类-技能人员 应急管理部（消防救援局）、人力资源社会保障部（江苏实施：江苏消防行业职业技能鉴定站）  xfshey" data-prov="jiangsu">
+      <div class="cname">消防设施操作员<span class="prov">江苏省</span></div>
       <div class="meta">准入类-技能人员</div>
       <div class="meta">主管：应急管理部（消防救援局）、人力资源社会保障部（江苏实施：江苏消防行业职业技能鉴定站）</div>
       <div class="row">
         <span class="tag">考试：<span class="pending" data-pending="1">【待核】</span></span>
 <span class="tag warn">14 项需人工核对</span>      </div>
       <div class="meta">公告发布：2024-12-24 ｜ 数据核对：2026-10-25</div>
+    </a>
+    <a class="card" href="/zhikao/jiangsu/yixiao/" data-k="一级注册消防工程师 一消 消防工程师 一级消防 江苏省 准入类-专业技术人员 应急管理部、人力资源社会保障部 11月 yixiao" data-prov="jiangsu">
+      <div class="cname">一级注册消防工程师<span class="prov">江苏省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：应急管理部、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：11月</span>
+<span class="tag warn">18 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-07-30 ｜ 数据核对：2026-10-25</div>
+    </a>
+    <a class="card" href="/zhikao/jiangsu/zcaq/" data-k="中级注册安全工程师 注安 安全工程师 中级注安 江苏省 准入类-专业技术人员 应急管理部、人力资源社会保障部 10月 zcaq" data-prov="jiangsu">
+      <div class="cname">中级注册安全工程师<span class="prov">江苏省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：应急管理部、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：10月</span>
+<span class="tag warn">17 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-07-24 ｜ 数据核对：2026-10-25</div>
+    </a>
+    <a class="card" href="/zhikao/jiangsu/zhiyaoshi/" data-k="执业药师 药师 执业药师 药学 江苏省 准入类-专业技术人员 国家药品监督管理局、人力资源社会保障部 10月、11月 zhiyaoshi" data-prov="jiangsu">
+      <div class="cname">执业药师<span class="prov">江苏省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：国家药品监督管理局、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：10月、11月</span>
+<span class="tag warn">15 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-07-17 ｜ 数据核对：2026-10-25</div>
+    </a>
+    <a class="card" href="/zhikao/jiangsu/zhukuai/" data-k="注册会计师（专业阶段） 注会 CPA 注册会计师 江苏省 准入类-专业技术人员 财政部（江苏实施：江苏省财政厅、江苏省注册会计师协会）  zhukuai" data-prov="jiangsu">
+      <div class="cname">注册会计师（专业阶段）<span class="prov">江苏省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：财政部（江苏实施：江苏省财政厅、江苏省注册会计师协会）</div>
+      <div class="row">
+        <span class="tag">考试：<span class="pending" data-pending="1">【待核】</span></span>
+<span class="tag warn">8 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-03-24 ｜ 数据核对：2026-10-25</div>
+    </a>
+    <a class="card" href="/zhikao/shandong/erjian/" data-k="二级建造师 二建 二建师 江苏二建 山东省 准入类-专业技术人员 住房和城乡建设部、人力资源社会保障部（江苏实施：江苏省住房和城乡建设厅、江苏省人力资源和社会保障厅） 5月 erjian" data-prov="shandong">
+      <div class="cname">二级建造师<span class="prov">山东省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：住房和城乡建设部、人力资源社会保障部（江苏实施：江苏省住房和城乡建设厅、江苏省人力资源和社会保障厅）</div>
+      <div class="row">
+        <span class="tag">考试：5月</span>
+<span class="tag warn">8 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-03-02 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/shandong/fakao/" data-k="国家统一法律职业资格 法考 法律职业资格 司考 山东省 准入类-专业技术人员 司法部（江苏实施：江苏省司法厅）  fakao" data-prov="shandong">
+      <div class="cname">国家统一法律职业资格<span class="prov">山东省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：司法部（江苏实施：江苏省司法厅）</div>
+      <div class="row">
+        <span class="tag">考试：<span class="pending" data-pending="1">【待核】</span></span>
+<span class="tag warn">16 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-06-06 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/shandong/hushi/" data-k="护士执业资格 护资 护考 护士资格 山东省 准入类-专业技术人员 国家卫生健康委员会、人力资源社会保障部  hushi" data-prov="shandong">
+      <div class="cname">护士执业资格<span class="prov">山东省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：国家卫生健康委员会、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：<span class="pending" data-pending="1">【待核】</span></span>
+<span class="tag warn">5 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2025-12-05 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/shandong/jianli/" data-k="监理工程师 监理 监理工程师 国监 山东省 准入类-专业技术人员 住房和城乡建设部、交通运输部、水利部、人力资源社会保障部 5月 jianli" data-prov="shandong">
+      <div class="cname">监理工程师<span class="prov">山东省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：住房和城乡建设部、交通运输部、水利部、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：5月</span>
+<span class="tag warn">7 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-03-04 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/shandong/jiaoshi/" data-k="中小学教师资格（笔试） 教资 教师资格 教师资格证 山东省 准入类-专业技术人员 教育部（江苏实施：江苏省教育厅、江苏省教育考试院） 9月 jiaoshi" data-prov="shandong">
+      <div class="cname">中小学教师资格（笔试）<span class="prov">山东省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：教育部（江苏实施：江苏省教育厅、江苏省教育考试院）</div>
+      <div class="row">
+        <span class="tag">考试：9月</span>
+<span class="tag warn">7 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-06-23 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/shandong/yixiao/" data-k="一级注册消防工程师 一消 消防工程师 一级消防 山东省 准入类-专业技术人员 应急管理部、人力资源社会保障部 11月 yixiao" data-prov="shandong">
+      <div class="cname">一级注册消防工程师<span class="prov">山东省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：应急管理部、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：11月</span>
+<span class="tag warn">4 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-08-11 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/shandong/zcaq/" data-k="中级注册安全工程师 注安 安全工程师 中级注安 山东省 准入类-专业技术人员 应急管理部、人力资源社会保障部 10月 zcaq" data-prov="shandong">
+      <div class="cname">中级注册安全工程师<span class="prov">山东省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：应急管理部、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：10月</span>
+<span class="tag warn">4 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-07-21 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/shandong/zhiyaoshi/" data-k="执业药师 药师 执业药师 药学 山东省 准入类-专业技术人员 国家药品监督管理局、人力资源社会保障部 10月、11月 zhiyaoshi" data-prov="shandong">
+      <div class="cname">执业药师<span class="prov">山东省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：国家药品监督管理局、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：10月、11月</span>
+<span class="tag warn">5 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-07-21 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/shandong/zhukuai/" data-k="注册会计师（专业阶段） 注会 CPA 注册会计师 山东省 准入类-专业技术人员 财政部（江苏实施：江苏省财政厅、江苏省注册会计师协会）  zhukuai" data-prov="shandong">
+      <div class="cname">注册会计师（专业阶段）<span class="prov">山东省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：财政部（江苏实施：江苏省财政厅、江苏省注册会计师协会）</div>
+      <div class="row">
+        <span class="tag">考试：<span class="pending" data-pending="1">【待核】</span></span>
+<span class="tag warn">10 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-03-16 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/zhejiang/hushi/" data-k="护士执业资格 护资 护考 护士资格 浙江省 准入类-专业技术人员 国家卫生健康委员会、人力资源社会保障部  hushi" data-prov="zhejiang">
+      <div class="cname">护士执业资格<span class="prov">浙江省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：国家卫生健康委员会、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：<span class="pending" data-pending="1">【待核】</span></span>
+<span class="tag warn">6 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2024-11-20 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/zhejiang/yixiao/" data-k="一级注册消防工程师 一消 消防工程师 一级消防 浙江省 准入类-专业技术人员 应急管理部、人力资源社会保障部 11月 yixiao" data-prov="zhejiang">
+      <div class="cname">一级注册消防工程师<span class="prov">浙江省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：应急管理部、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：11月</span>
+<span class="tag warn">7 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-08-19 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/zhejiang/zcaq/" data-k="中级注册安全工程师 注安 安全工程师 中级注安 浙江省 准入类-专业技术人员 应急管理部、人力资源社会保障部 10月 zcaq" data-prov="zhejiang">
+      <div class="cname">中级注册安全工程师<span class="prov">浙江省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：应急管理部、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：10月</span>
+<span class="tag warn">7 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-08-04 ｜ 数据核对：2026-10-27</div>
+    </a>
+    <a class="card" href="/zhikao/zhejiang/zhiyaoshi/" data-k="执业药师 药师 执业药师 药学 浙江省 准入类-专业技术人员 国家药品监督管理局、人力资源社会保障部 10月、11月 zhiyaoshi" data-prov="zhejiang">
+      <div class="cname">执业药师<span class="prov">浙江省</span></div>
+      <div class="meta">准入类-专业技术人员</div>
+      <div class="meta">主管：国家药品监督管理局、人力资源社会保障部</div>
+      <div class="row">
+        <span class="tag">考试：10月、11月</span>
+<span class="tag warn">9 项需人工核对</span>      </div>
+      <div class="meta">公告发布：2026-07-28 ｜ 数据核对：2026-10-27</div>
     </a>
   </div>
 
