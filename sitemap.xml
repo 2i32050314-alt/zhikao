@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://2i32050314-alt.github.io/zhikao/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/beijing/erjian/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/beijing/jianli/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/beijing/jiaoshi/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/beijing/yixiao/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/beijing/zcaq/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/beijing/zhiyaoshi/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/hebei/erjian/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/hebei/fakao/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/hebei/jianli/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/hebei/jiaoshi/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/hebei/yixiao/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/hebei/zcaq/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/hebei/zhiyaoshi/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/hebei/zhukuai/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://2i32050314-alt.github.io/zhikao/jiangsu/erjian/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://2i32050314-alt.github.io/zhikao/jiangsu/fakao/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://2i32050314-alt.github.io/zhikao/jiangsu/hushi/</loc><lastmod>2026-10-27</lastmod></url>
@@ -20,6 +34,22 @@
   <url><loc>https://2i32050314-alt.github.io/zhikao/shandong/zcaq/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://2i32050314-alt.github.io/zhikao/shandong/zhiyaoshi/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://2i32050314-alt.github.io/zhikao/shandong/zhukuai/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/shanxi/erjian/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/shanxi/fakao/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/shanxi/jianli/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/shanxi/jiaoshi/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/shanxi/yixiao/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/shanxi/zcaq/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/shanxi/zhiyaoshi/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/shanxi/zhukuai/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/tianjin/erjian/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/tianjin/hushi/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/tianjin/jianli/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/tianjin/jiaoshi/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/tianjin/yixiao/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/tianjin/zcaq/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/tianjin/zhiyaoshi/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://2i32050314-alt.github.io/zhikao/tianjin/zhukuai/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://2i32050314-alt.github.io/zhikao/zhejiang/hushi/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://2i32050314-alt.github.io/zhikao/zhejiang/yixiao/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://2i32050314-alt.github.io/zhikao/zhejiang/zcaq/</loc><lastmod>2026-10-27</lastmod></url>
