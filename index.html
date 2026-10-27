@@ -45,12 +45,59 @@
     <label for="prov"><span style="font-size:13.5px;color:#666">省份</span>
       <select id="prov">
         <option value="">全部省份</option>
-        <option value="jiangsu">江苏省</option>
+        <optgroup label="东北">
+          <option value="liaoning" disabled>辽宁省（建设中）</option>
+          <option value="jilin" disabled>吉林省（建设中）</option>
+          <option value="heilongjiang" disabled>黑龙江省（建设中）</option>
+        </optgroup>
+        <optgroup label="华东">
+          <option value="shanghai" disabled>上海市（建设中）</option>
+          <option value="jiangsu">江苏省</option>
+          <option value="zhejiang" disabled>浙江省（建设中）</option>
+          <option value="anhui" disabled>安徽省（建设中）</option>
+          <option value="fujian" disabled>福建省（建设中）</option>
+          <option value="jiangxi" disabled>江西省（建设中）</option>
+          <option value="shandong" disabled>山东省（建设中）</option>
+        </optgroup>
+        <optgroup label="华中">
+          <option value="henan" disabled>河南省（建设中）</option>
+          <option value="hubei" disabled>湖北省（建设中）</option>
+          <option value="hunan" disabled>湖南省（建设中）</option>
+        </optgroup>
+        <optgroup label="华北">
+          <option value="beijing" disabled>北京市（建设中）</option>
+          <option value="tianjin" disabled>天津市（建设中）</option>
+          <option value="hebei" disabled>河北省（建设中）</option>
+          <option value="shanxi" disabled>山西省（建设中）</option>
+          <option value="neimenggu" disabled>内蒙古自治区（建设中）</option>
+        </optgroup>
+        <optgroup label="华南">
+          <option value="guangdong" disabled>广东省（建设中）</option>
+          <option value="guangxi" disabled>广西壮族自治区（建设中）</option>
+          <option value="hainan" disabled>海南省（建设中）</option>
+        </optgroup>
+        <optgroup label="西北">
+          <option value="shaanxi" disabled>陕西省（建设中）</option>
+          <option value="gansu" disabled>甘肃省（建设中）</option>
+          <option value="qinghai" disabled>青海省（建设中）</option>
+          <option value="ningxia" disabled>宁夏回族自治区（建设中）</option>
+          <option value="xinjiang" disabled>新疆维吾尔自治区（建设中）</option>
+        </optgroup>
+        <optgroup label="西南">
+          <option value="chongqing" disabled>重庆市（建设中）</option>
+          <option value="sichuan" disabled>四川省（建设中）</option>
+          <option value="guizhou" disabled>贵州省（建设中）</option>
+          <option value="yunnan" disabled>云南省（建设中）</option>
+          <option value="xizang" disabled>西藏自治区（建设中）</option>
+        </optgroup>
       </select>
     </label>
     <input id="q" type="search" placeholder="搜索证书：二建 / 监理 / 消防 / 药师 / 教资 / 注会…（也可搜主管单位）" autocomplete="off" aria-label="搜索证书">
-    <span class="count" id="cnt">10 个证书 · 1 个省份</span>
+    <span class="count" id="cnt">10 个证书 · 已开放 1 / 31 省</span>
   </div>
+
+  <p class="provnote">全国 <strong>31</strong> 个省级行政区已预置在下拉框，当前仅 <strong>江苏省</strong> 已完成官方公告采集并开放（10 证）。
+    其余省份需逐省采集本省官方公告后才能生成页面——<strong>没有公告原文就不建页面</strong>（避免凭空编造报考条件，也避免被判定为站群）。</p>
 
   <p class="hint" id="empty" hidden>没有匹配的证书。换个关键词试试（支持证书名、主管单位、类别）。</p>
 
@@ -147,10 +194,10 @@
     </a>
   </div>
 
-  <p class="provnote">当前仅开放 <strong>江苏省</strong>（10 证）。其他省份页面建设中；官方公告里查不到的字段，页面一律原样显示 <span class="pending" data-pending="1">【待核】</span> 标记，不做推测填充。</p>
+  <p class="provnote">已开放省份：<strong>江苏省</strong>（首批 10 证）｜ 官方公告里查不到的字段，页面一律原样显示 <span class="pending" data-pending="1">【待核】</span> 标记，不做推测填充。</p>
 
   <footer>
-    数据核对日期：2026-10-26 ｜ 纠错邮箱：<strong>1411826377@qq.com</strong><br>
+    数据核对日期：2026-10-27 ｜ 纠错邮箱：<strong>1411826377@qq.com</strong><br>
     本站不收集用户个人信息：无登录、无后端、无数据库。指标口径与门禁见项目文档。
   </footer>
 </div>
