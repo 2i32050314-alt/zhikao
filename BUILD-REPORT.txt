@@ -1,11 +1,25 @@
 build.py @ 2026-10-27
-上线页面：23 ｜ 覆盖省份：3（jiangsu,shandong,zhejiang）｜ 【待核】总数：223
-低信息量排除（核心字段<6/9 不上线）：3 页｜shandong/xfshey(0/9)；zhejiang/erjian(0/9)；zhejiang/jianli(0/9)
+上线页面：53 ｜ 覆盖省份：7（beijing,hebei,jiangsu,shandong,shanxi,tianjin,zhejiang）｜ 【待核】总数：442
+低信息量排除（核心字段<6/9 不上线）：7 页｜beijing/fakao(5/9)；beijing/hushi(3/9)；shandong/xfshey(0/9)；shanxi/hushi(4/9)；tianjin/fakao(5/9)；zhejiang/erjian(0/9)；zhejiang/jianli(0/9)
 SITE_ORIGIN：https://2i32050314-alt.github.io
 CORRECTION_EMAIL：1411826377@qq.com
 三条构建断言：A1 source_url ✔ ｜ A2 verified_at≤400天 ✔ ｜ A3 【待核】原样渲染 ✔
 
 province | cert_id | 【待核】 | 页面 | source_url
+beijing | erjian | 8 | dist/beijing\erjian\index.html | https://rsj.beijing.gov.cn/ywsite/bjpta/zcwj/2026zc/202603/P020260302564586570454.pdf
+beijing | jianli | 6 | dist/beijing\jianli\index.html | https://rsj.beijing.gov.cn/ywsite/bjpta/zcwj/2026zc/202603/P020260302569690951209.pdf
+beijing | jiaoshi | 8 | dist/beijing\jiaoshi\index.html | https://www.bjeea.cn/html/fxlks/shdjks/tzgg/2026/0623/88228.html
+beijing | yixiao | 6 | dist/beijing\yixiao\index.html | https://rsj.beijing.gov.cn/ywsite/bjpta/zcwj/2026zc/202608/P020260814491216918455.pdf
+beijing | zcaq | 6 | dist/beijing\zcaq\index.html | https://rsj.beijing.gov.cn/ywsite/bjpta/zcwj/2026zc/202607/P020260728496831344035.pdf
+beijing | zhiyaoshi | 7 | dist/beijing\zhiyaoshi\index.html | https://rsj.beijing.gov.cn/ywsite/bjpta/zcwj/2026zc/202607/P020260728499659419343.pdf
+hebei | erjian | 11 | dist/hebei\erjian\index.html | https://www.hebpta.com.cn/article?id=305&artId=13202
+hebei | fakao | 12 | dist/hebei\fakao\index.html | https://sft.hebei.gov.cn/system/2026/06/30/030388023.shtml
+hebei | jianli | 8 | dist/hebei\jianli\index.html | https://www.hebpta.com.cn/article?id=305&artId=13183
+hebei | jiaoshi | 8 | dist/hebei\jiaoshi\index.html | https://www.hebeea.edu.cn/c/2026-06-17/493042.html
+hebei | yixiao | 7 | dist/hebei\yixiao\index.html | https://www.hebpta.com.cn/article?id=305&artId=13432
+hebei | zcaq | 10 | dist/hebei\zcaq\index.html | https://www.hebpta.com.cn/article?id=305&artId=13394
+hebei | zhiyaoshi | 7 | dist/hebei\zhiyaoshi\index.html | https://www.hebpta.com.cn/article?id=305&artId=13390
+hebei | zhukuai | 8 | dist/hebei\zhukuai\index.html | https://www.hebicpa.org.cn/113/27493.html
 jiangsu | erjian | 8 | dist/jiangsu\erjian\index.html | https://jshrss.jiangsu.gov.cn/art/2026/3/2/art_57268_11734353.html
 jiangsu | fakao | 14 | dist/jiangsu\fakao\index.html | https://www.moj.gov.cn/pub/sfbgw/jgsz/jgszzsdw/zsdwgjsfkszx/gjsfkszxdt/202606/t20260609_536223.html
 jiangsu | hushi | 11 | dist/jiangsu\hushi\index.html | https://www.jswsrc.com.cn/article/index.php?c=show&id=5125
@@ -25,6 +39,22 @@ shandong | yixiao | 4 | dist/shandong\yixiao\index.html | http://hrss.shandong.g
 shandong | zcaq | 4 | dist/shandong\zcaq\index.html | http://hrss.shandong.gov.cn/rsks/articles/ch03528/202607/6832d744-42b7-41ee-92b0-9c858ee3245d.shtml
 shandong | zhiyaoshi | 5 | dist/shandong\zhiyaoshi\index.html | http://hrss.shandong.gov.cn/rsks/articles/ch03528/202607/c2987703-b098-4cf7-b474-db82982622c4.shtml
 shandong | zhukuai | 10 | dist/shandong\zhukuai\index.html | http://sdicpa.org.cn/news/2026316/n91276197.html
+shanxi | erjian | 6 | dist/shanxi\erjian\index.html | https://rst.shanxi.gov.cn/rsks/zyjsryzgks/2026zgks/202603/t20260312_10078660.shtml
+shanxi | fakao | 8 | dist/shanxi\fakao\index.html | http://sft.shanxi.gov.cn/zwyw_20182/tzgg/202606/t20260608_10141648.html
+shanxi | jianli | 6 | dist/shanxi\jianli\index.html | https://rst.shanxi.gov.cn/rsks/zyjsryzgks/2026zgks/202603/t20260310_10077054.shtml
+shanxi | jiaoshi | 8 | dist/shanxi\jiaoshi\index.html | http://www.sxkszx.cn/news/2026623/n9842127207.html
+shanxi | yixiao | 10 | dist/shanxi\yixiao\index.html | https://rst.shanxi.gov.cn/rsks/zyjsryzgks/2026zgks/202608/t20260811_10197645.shtml
+shanxi | zcaq | 7 | dist/shanxi\zcaq\index.html | https://rst.shanxi.gov.cn/rsks/zyjsryzgks/2026zgks/202607/t20260728_10185699.shtml
+shanxi | zhiyaoshi | 6 | dist/shanxi\zhiyaoshi\index.html | https://rst.shanxi.gov.cn/rsks/zyjsryzgks/2026zgks/202607/t20260728_10185725.shtml
+shanxi | zhukuai | 9 | dist/shanxi\zhukuai\index.html | https://www.sxicpa.org.cn/view.php?nid=12611
+tianjin | erjian | 6 | dist/tianjin\erjian\index.html | https://hrss.tj.gov.cn/jsdw/rsksw/tzgg4/202603/t20260303_7253969.html
+tianjin | hushi | 7 | dist/tianjin\hushi\index.html | https://www.tjwsrc.com/system/2025/12/01/030179954.shtml
+tianjin | jianli | 7 | dist/tianjin\jianli\index.html | https://hrss.tj.gov.cn/jsdw/rsksw/tzgg4/202603/t20260312_7260282.html
+tianjin | jiaoshi | 6 | dist/tianjin\jiaoshi\index.html | http://www.zhaokao.net/shks/system/2026/06/18/030009850.shtml
+tianjin | yixiao | 6 | dist/tianjin\yixiao\index.html | https://hrss.tj.gov.cn/jsdw/rsksw/tzgg4/202608/t20260819_7354639.html
+tianjin | zcaq | 5 | dist/tianjin\zcaq\index.html | https://hrss.tj.gov.cn/jsdw/rsksw/tzgg4/202607/t20260731_7345293.html
+tianjin | zhiyaoshi | 6 | dist/tianjin\zhiyaoshi\index.html | https://hrss.tj.gov.cn/jsdw/rsksw/tzgg4/202607/t20260731_7345274.html
+tianjin | zhukuai | 4 | dist/tianjin\zhukuai\index.html | http://www.tjicpa.org.cn/tjicpa/contents.jsp?contentId=200802&pid=204&cName=kszc
 zhejiang | hushi | 6 | dist/zhejiang\hushi\index.html | https://wsjkw.zj.gov.cn/col/col1659204/gggs/art/2024/art_d4644afc501b4c5590ca5c6ac05eba08.html
 zhejiang | yixiao | 7 | dist/zhejiang\yixiao\index.html | http://www.zjks.com/col/col1229635557/art/2026/art_840c1fbcf2974858af69432cc256e937.html
 zhejiang | zcaq | 7 | dist/zhejiang\zcaq\index.html | http://www.zjks.com/col/col1229635557/art/2026/art_d9badc77d47646a9b6d1dead13f53bb8.html
