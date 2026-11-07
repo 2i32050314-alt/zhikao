@@ -1,4 +1,4 @@
-build.py @ 2026-10-28
+build.py @ 2026-11-07
 上线页面：64 ｜ 覆盖省份：8（anhui,henan,jiangsu,liaoning,neimenggu,shandong,shanxi,tianjin）｜ 【待核】总数：493
 低信息量排除（核心字段<6/9 不上线）：5 页｜liaoning/hushi(4/9)；neimenggu/hushi(4/9)；shandong/xfshey(0/9)；shanxi/hushi(4/9)；tianjin/fakao(5/9)
 SITE_ORIGIN：https://2i32050314-alt.github.io
