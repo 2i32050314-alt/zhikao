@@ -1,8 +1,8 @@
 build.py @ 2026-11-07
-上线页面：64 ｜ 覆盖省份：8（anhui,henan,jiangsu,liaoning,neimenggu,shandong,shanxi,tianjin）｜ 【待核】总数：493
+上线页面：64 ｜ 覆盖省份：8（anhui,henan,jiangsu,liaoning,neimenggu,shandong,shanxi,tianjin）｜ 【待核】总数：492
 低信息量排除（核心字段<6/9 不上线）：5 页｜liaoning/hushi(4/9)；neimenggu/hushi(4/9)；shandong/xfshey(0/9)；shanxi/hushi(4/9)；tianjin/fakao(5/9)
 SITE_ORIGIN：https://2i32050314-alt.github.io
-CORRECTION_EMAIL：1411826377@qq.com
+CORRECTION_EMAIL：2966124085@qq.com
 三条构建断言：A1 source_url ✔ ｜ A2 verified_at≤400天 ✔ ｜ A3 【待核】原样渲染 ✔
 
 province | cert_id | 【待核】 | 页面 | source_url
@@ -20,7 +20,7 @@ henan | yixiao | 6 | dist/henan\yixiao\index.html | http://www.hnrsks.com/siteso
 henan | zcaq | 5 | dist/henan\zcaq\index.html | http://www.hnrsks.com/sitesources/hnsrskszx/page_pc/ksxxnew/articlecafb186e504346e5bc96645898a67c5b.html
 henan | zhiyaoshi | 14 | dist/henan\zhiyaoshi\index.html | http://www.hnrsks.com/sitesources/hnsrskszx/page_pc/ksxxnew/article93270dd80a5e4ca4b9ed68740cd9ae34.html
 henan | zhukuai | 6 | dist/henan\zhukuai\index.html | http://czj.smx.gov.cn/277/2026/3/2241852.html
-jiangsu | erjian | 8 | dist/jiangsu\erjian\index.html | https://jshrss.jiangsu.gov.cn/art/2026/3/2/art_57268_11734353.html
+jiangsu | erjian | 7 | dist/jiangsu\erjian\index.html | https://jshrss.jiangsu.gov.cn/art/2026/3/2/art_57268_11734353.html
 jiangsu | fakao | 14 | dist/jiangsu\fakao\index.html | https://www.moj.gov.cn/pub/sfbgw/jgsz/jgszzsdw/zsdwgjsfkszx/gjsfkszxdt/202606/t20260609_536223.html
 jiangsu | hushi | 11 | dist/jiangsu\hushi\index.html | https://www.jswsrc.com.cn/article/index.php?c=show&id=5125
 jiangsu | jianli | 14 | dist/jiangsu\jianli\index.html | https://jshrss.jiangsu.gov.cn/art/2026/3/4/art_57268_11735463.html
